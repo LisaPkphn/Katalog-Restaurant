@@ -1,0 +1,139 @@
+@media screen and (max-width: 650px) {
+    .restaurant .restaurant__poster {
+      width: 100%;
+      margin: 15px auto;
+      min-width: 300px;
+      max-width: 450px;
+  }
+  .container_info {
+    margin: 0 auto;
+    display: grid;
+    width: 100%;
+    max-width: 800px;
+    grid-template-columns: 1fr;
+    gap: 18px 16px;
+  }
+  
+  }
+  
+  @media screen and (min-width: 650px) {
+    .app-bar {
+      grid-template-columns: 1fr auto;
+      padding: 8px 32px;
+    }
+   
+    .app-bar .app-bar__brand > a {
+      font-size: 1.5em;
+      min-width: 44px;
+      min-height: 44px;
+    }
+   
+    .app-bar .app-bar__menu {
+      display: none;
+    }
+   
+    .app-bar .app-bar__navigation {
+      position: static;
+      width: 70%;
+      text-decoration: none;
+      background-color: #44749d;
+      display: inline-flex;
+      justify-content: right;
+    }
+  
+    .app-bar .app-bar__navigation ul {
+      display: inline-block;
+    }
+   
+    .app-bar .app-bar__navigation ul li {
+      display: inline-block;
+    }
+   
+    .app-bar .app-bar__navigation ul li a {
+      display: inline-block;
+      width: 120px;
+      margin: 0;
+      color: #fff;
+      text-align: center;
+    }
+    .restaurants {
+      grid-template-columns: 1fr 1fr;
+      box-sizing: border-box;
+    }
+  
+    .restaurant {
+      grid-template-columns: auto 1fr;
+      box-sizing: border-box;
+    }
+  
+    .restaurant .restaurant__title {
+      box-sizing: border-box;
+      grid-column-start: 1;
+      grid-column-end: 3;
+    }
+  
+    .restaurant .restaurant__review {
+      box-sizing: border-box;
+      grid-column-start: 1;
+      grid-column-end: 3;
+    }
+  
+    .restaurant .restaurant__poster {
+      max-width: 500px;
+  }
+  .restaurant .restaurant__info h3 {
+    width: 240px;
+  }
+  .restaurant .restaurant__info h4 {
+    width: 240px;
+  }
+   
+  }
+   
+  @media screen and (min-width: 800px) {
+    .app-bar .app-bar__brand > a {
+      font-size: 2em;
+    }
+    .app-bar .app-bar__navigation {
+      position: static;
+      width: 70%;
+      text-decoration: none;
+      background-color: #44749d;
+    }
+    
+  }
+   
+  @media screen and (min-width: 850px) {
+    .app-bar .app-bar__navigation {
+      position: static;
+      width: 70%;
+      text-decoration: none;
+      background-color: #44749d;
+    }
+    .restaurants {
+      grid-template-columns: repeat(3, 1fr);
+      box-sizing: border-box;
+    }
+  }
+   
+  @media screen and (min-width: 1200px) {
+    .app-bar .app-bar__navigation {
+      position: static;
+      width: 70%;
+      text-decoration: none;
+      background-color: #44749d;
+    }
+    .restaurants {
+      grid-template-columns: repeat(4, 1fr);
+      box-sizing: border-box;
+    }
+  }
+   
+  @media screen and (min-width: 1600px) {
+    .restaurants {
+      grid-template-columns: repeat(5, 1fr);
+      box-sizing: border-box;
+    }
+  }
+  
+  
